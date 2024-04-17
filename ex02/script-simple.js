@@ -14,10 +14,7 @@ window.addEventListener('load', function() {
     // Adicionando um texto ao elemento small
     smallTag.innerText = 'Concluído'
 
-    // Travar o for por 1 segundos antes de adicionar o elemento small por interação
-    setTimeout(() => {
-      // Adicionando o elemento small
-      element.appendChild(smallTag)
-    }, 1000 * (index + 1))
+    // Adicionando o elemento small
+    element.appendChild(smallTag)
   })
 })
